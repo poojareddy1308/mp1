@@ -6,3 +6,6 @@ ip = st.text_input('Enter the job role:')
 op = model.predict([ip])
 if st.button('Enter'):
   st.title(op[0])
+
+      
+         
